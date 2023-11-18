@@ -6,7 +6,7 @@ import tensorflow as tf
 import pickle
 
 # Load the model from the pickle file
-with open('C:\\Users\\Akash-Avinash\\Desktop\\test\\pickle.pkl', 'rb') as file:
+with open('pickle.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
 
 # Create a Streamlit app
